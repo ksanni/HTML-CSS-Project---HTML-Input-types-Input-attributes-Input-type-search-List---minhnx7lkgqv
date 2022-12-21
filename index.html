@@ -1,46 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html-Css-Project</title>
-    <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Mobile Nav Bar</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"/>
+
 </head>
 <body>
-    
-    <div class="main-containt">
+    <div class="mobile">
         
-        <div class="containt">
-         
-            <div class="wallpaper" >
-                <img src="pic.jpg" alt="error">
-                <a href="https://logwork.com/clock-widget/" class="digital-clock" data-style="round" data-size="300" data-timezone="Asia/Kolkata" data-language="en">New Delhi, India</a>
-            </div>   
+   <img src="pic.jpg" alt="Home" class="content show">
+   <img src="pic1.jfif" alt="Work" class="content">
+   <img src="pic2.jpg" alt="Blog" class="content">
+   <img src="pic3.jpg" alt="AboutUs" class="content">
 
-            <div class="navbar">
-                <div class="navbar-item">
-                    <ul class="icon-list">
-                        <i class="fa fa-home icon" ><a href="https://www.google.com/"></a></i>
-
-                        <i class="fa-solid fa-briefcase icon"></i>
-                        <i class="fa-solid fa-book-open icon"></i>
-                        <i class="fa-solid fa-users icon"></i>
-                       
-                   </ul>
-                        <ul class="icon-list2">
-                            <li>Home</li>
-                            <li>Work</li>
-                            <li class="li3">Blog</li>
-                            <li>About Us</li>
-                        </ul>
-                </div>
-            </div>
-        
-        </div>
+     <nav>
+        <ul>
+            <li class="active">
+                <i class="fas fa-home"></i>
+                <p>Home</p></li>
+                <li> <i class="fas fa-box"></i><p>Work</p></li>
+                <li><i class="fas fa-book-open"></i><p>Blog</p></li>
+                <li><i class="fas fa-users"></i><p>About Us</p></li>
+                
+        </ul>
+     </nav>
     </div>
-    <script src="https://cdn.logwork.com/widget/digital.js"></script>
+
+    <script src="App.js"></script>
 </body>
 </html>
